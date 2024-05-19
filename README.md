@@ -44,7 +44,6 @@
 - Download source from repository
 
 - Run: cd Traning
-- Run: npm init -y
 - Run: npm install
 - Run: npm install live-server --save-dev
 - Run: npm run start
