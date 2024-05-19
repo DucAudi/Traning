@@ -44,7 +44,6 @@
 - Download source from repository
 
 - Run: cd Traning
-- Checkout branch: git checkout practice-two
 - Run: npm init -y
 - Run: npm install
 - Run: npm install live-server --save-dev
