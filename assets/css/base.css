@@ -1,0 +1,107 @@
+:root{
+    --button-color: #5EB9F0;
+    --text-while: #fff;
+    --background-color: #FEFEFE;
+    --span-color: #5EB9F0;
+    --text-black: #343F52;
+    --text-color: #60697B;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Urbanist';
+}
+
+.page{ 
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    /* max-width: 100% ; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}  
+
+.layout{
+    width: 80%;
+    /* background-color: rgb(93, 188, 248); */
+
+}
+.box{
+    float: left;
+    width: 14%;
+    height: 50px;
+    /* background-color: aqua; */
+    margin: 0 0 1px 2px;
+    /* padding: 0 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+.header-text{
+    color: var(--text-black);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28.9px; /* 170% */
+    text-decoration: none;
+}
+
+.button{
+    display: flex;
+    width: 104.86px;
+    height: 48.89px;
+    padding: 14px 21.613px 14.89px 22px;
+    font-size: 17px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: var(--button-color);
+    color: var(--text-while);
+    border-radius: 1000px;
+    text-decoration: none;
+    border: none;
+}
+span{
+    color: var(--span-color);
+    font-style: normal;
+    font-weight: 600;
+    /* line-height: 15px; */
+}
+.title{
+    color: var(--text-black);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50.4px; /* 120% */
+}
+.image-size{
+    width: 100%;
+    height: 100%;
+}
+img{
+    width: 100%;
+    height: 100%; 
+}
+.text{
+    color: var(--text-color);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
