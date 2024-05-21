@@ -23,31 +23,52 @@ html{
     margin: 0 auto;
     display: flex;
     width: 100%;
-    /* max-width: 100% ; */
+    max-width: 100% ;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }  
-
-.layout{
-    width: 80%;
-    /* background-color: rgb(93, 188, 248); */
-
-}
-.box{
-    float: left;
-    width: 14%;
-    height: 50px;
-    /* background-color: aqua; */
-    margin: 0 0 1px 2px;
-    /* padding: 0 10px; */
+/* main*/
+.page .main{
+    width: 100%;
     display: flex;
+    flex-direction: center;
     justify-content: center;
     align-items: center;
-    
+}   
 
-    
+/* layout */
+.layout{
+    width: 80%;
 }
+
+/* row & col */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-1{
+    width: 100%;
+}
+.col-2{
+    width: 50%;
+}
+.col-3{
+    width: 33.333333%;
+}
+.col-4{
+    width: 25%;
+}
+
+/* container */
+.container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    flex-wrap: wrap;
+}
+
 .header-text{
     color: var(--text-black);
     font-size: 12px;
@@ -59,7 +80,7 @@ html{
 
 .button{
     display: flex;
-    width: 104.86px;
+    width: 150px;
     height: 48.89px;
     padding: 14px 21.613px 14.89px 22px;
     font-size: 17px;
@@ -72,6 +93,9 @@ html{
     text-decoration: none;
     border: none;
 }
+.button:hover{
+    background-color: var(--background-color);
+}
 span{
     color: var(--span-color);
     font-style: normal;
@@ -80,24 +104,38 @@ span{
 }
 .title{
     color: var(--text-black);
-    font-size: 32px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 600;
-    line-height: 50.4px; /* 120% */
+    line-height: 30.4px; /* 120% */
+}
+.sub-title{
+    color: var(--span-color);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21.6px; /* 135% */
+    text-transform: uppercase;
 }
 .image-size{
     width: 100%;
     height: 100%;
 }
-img{
-    width: 100%;
-    height: 100%; 
-}
+
 .text{
     color: var(--text-color);
-    font-size: 17px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 500;
+    line-height: 20px;
+}
+.text-sub-button{
+    color: var(--text-black);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30.6px;
 }
 ul{
     list-style-type: none;
@@ -105,3 +143,29 @@ ul{
     justify-content: space-around;
 }
 
+/* ---- */
+
+.url{
+    color: var(--background-color);
+    text-align: center;
+    font-family: 'Urbanist';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28.9px; 
+    text-decoration: none;
+}
+.url:hover{
+    color: var(--button-color);
+    background-color: var(--background-color);
+}
+
+/* heading */
+.heading-4{
+    color: var(--text-black);
+    font-family: Urbanist;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px; /* 145% */
+}
