@@ -16,7 +16,7 @@
 - Langding Page website 
 
 ## ESTIMATION
-**Day 1:**:
+**Day 1:**
 - Setup environment (Create a new branch, Readme).
 - Setup environment (structure app, setup commitlint.config).
 - Common styles button,etc.
