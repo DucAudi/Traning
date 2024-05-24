@@ -5,6 +5,7 @@
 ## TECHNICAL		
 - HTML5/CSS3
 - Figma design.
+- fontawesome
 ## TIMELINE
 - 5 days (From 19/5 - To 25 /5)
 ## TIME SIZE
