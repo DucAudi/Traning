@@ -4,7 +4,7 @@
 - This document provides information about HTML/CSS 
 ## TECHNICAL		
 - HTML5/CSS3
-- Figma design.
+- Figma design: https://www.figma.com/design/lxbLEojLMtr1MCWxu52VdI/50%2B-Landing-Page-design-free-(Community)-(Copy)?node-id=2101-1074&m=dev
 - fontawesome
 ## TIMELINE
 - 5 days (From 19/5 - To 25 /5)
@@ -16,7 +16,7 @@
 - Langding Page website 
 
 ## ESTIMATION
-**Day 1:**:
+**Day 1:**
 - Setup environment (Create a new branch, Readme).
 - Setup environment (structure app, setup commitlint.config).
 - Common styles button,etc.
