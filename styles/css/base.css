@@ -1,0 +1,243 @@
+:root {
+  --button-color: #5eb9f0;
+  --text-while: #fff;
+  --background-color: #fefefe;
+  --span-color: #5eb9f0;
+  --text-black: #343f52;
+  --text-color: #60697b;
+  --text-subname: #aab0bc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Urbanist";
+}
+
+.page {
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* main*/
+.page .main {
+  width: 100%;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* section */
+.section1 {
+  background-color: #fefefe;
+  margin-top: 80px;
+  width: 100%;
+}
+.section2 {
+  width: 100%;
+  padding: 3em 0;
+  background: linear-gradient(180deg, #f0f8fe 30%, rgba(255, 255, 255, 0) 100%);
+}
+.section3 {
+  width: 100%;
+  background-color: #fefefe;
+  padding: 2em 0;
+}
+.section4 {
+  width: 100%;
+  padding: 3em 0;
+  background: linear-gradient(180deg, #f0f8fe 30%, rgba(255, 255, 255, 0) 100%);
+}
+.section5 {
+  width: 100%;
+  padding: 2em 0;
+  background-color: #fefefe;
+}
+.section6 {
+  width: 100%;
+  padding: 5rem 0;
+  background: linear-gradient(180deg, #f0f8fe 30%, rgba(255, 255, 255, 0) 100%);
+}
+.section7 {
+  width: 100%;
+  padding: 5em 0;
+  background-color: #fefefe;
+}
+
+/* layout */
+.layout {
+  width: 80%;
+}
+
+/* row & col */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+.col-1 {
+  width: 100%;
+}
+.col-2 {
+  width: 50%;
+}
+.col-3 {
+  width: 33.333333%;
+}
+.col-4 {
+  width: 25%;
+}
+
+/* container */
+.container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.header-text {
+  color: var(--text-black);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28.9px; /* 170% */
+  text-decoration: none;
+}
+
+.button {
+  display: flex;
+  width: 150px;
+  height: 48.89px;
+  padding: 14px 21.613px 14.89px 22px;
+  font-size: 17px;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: var(--button-color);
+  color: var(--text-while);
+  border-radius: 1000px;
+  text-decoration: none;
+  border: none;
+}
+.button:hover {
+  background-color: var(--background-color);
+  color: var(--button-color);
+  cursor: pointer;
+}
+span {
+  color: var(--span-color);
+  font-style: normal;
+  font-weight: 600;
+  /* line-height: 15px; */
+}
+.title {
+  color: var(--text-black);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40.4px; /* 120% */
+}
+.sub-title {
+  color: var(--span-color);
+  text-align: start;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 21.6px; /* 135% */
+  text-transform: uppercase;
+}
+.sub-name {
+  color: var(--text-subname);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 23.8px; /* 170% */
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+.image-size {
+  width: 100%;
+  height: 100%;
+}
+
+.text {
+  color: var(--text-color);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  text-decoration: none;
+}
+.text-sub-button {
+  color: var(--text-black);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30.6px;
+}
+.text-name {
+  color: var(--text-black);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 29px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* ---- */
+
+.url {
+  color: var(--background-color);
+  text-align: center;
+  font-family: "Urbanist";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28.9px;
+  text-decoration: none;
+}
+.url:hover {
+  color: var(--button-color);
+  background-color: var(--background-color);
+}
+
+/* heading */
+.heading-4 {
+  color: var(--text-black);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 29px; /* 145% */
+}
+
+/* icons */
+.icon {
+  color: var(--button-color);
+  font-size: 20px;
+}
+/* boxshadow */
+.box-shadow {
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 5px 35px 0px rgba(30, 34, 40, 0.07);
+}
