@@ -2,6 +2,7 @@
 # HTML/CSS Practice 2
 ## OVERVIEW
 - This document provides information about HTML/CSS 
+- Demo Website: https://ducaudi.github.io/Traning/
 ## TECHNICAL		
 - HTML5/CSS3
 - Figma design: https://www.figma.com/design/lxbLEojLMtr1MCWxu52VdI/50%2B-Landing-Page-design-free-(Community)-(Copy)?node-id=2101-1074&m=dev
