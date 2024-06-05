@@ -40,6 +40,8 @@ html {
 /* section */
 .section1 {
   background-color: #fefefe;
+  margin-top: 80px;
+  width: 100%;
 }
 .section2 {
   width: 100%;
@@ -81,6 +83,10 @@ html {
 .row {
   display: flex;
   flex-wrap: wrap;
+}
+.flex-column{
+  display: flex;
+  flex-direction: column;
 }
 .col-1 {
   width: 100%;

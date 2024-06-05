@@ -6,74 +6,112 @@
     <title>Dang Cong Duc</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-    />
-    <link rel="stylesheet" href="./assets/css/base.css" />
-    <link rel="stylesheet" href="./assets/css/index.css" />
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="./styles/css/base.css" />
+    <link rel="stylesheet" href="./styles/css/index.css" />
+    <link rel="stylesheet" href="./styles/css/mobile.css" />
   </head>
   <body>
     <div class="page">
-      <header class="navbar layout">
-        <!-- <div class="row"> -->
-        <div class="header__logo">
-          <div class="logo">
-            <img class="" src="./assets/images/logo.png" alt="Image error..." />
+      <header class="head__nav container">
+        <div class="navbar row layout">
+          <!-- <div class="row"> -->
+          <div class="header__logo ">
+            <div class="logo">
+              <img class src="./assets/images/logo.png" alt="Image error..." />
+            </div>
+          </div>
+          <div class="header__nav row">
+            <div class="header__nav-item1 item-header">
+              <a class="header-text" href>Demo<i
+                  class="fa-solid fa-chevron-down"></i></a>
+            </div>
+            <div class="header__nav-item2 item-header">
+              <a class="header-text" href>Page<i
+                  class="fa-solid fa-chevron-down"></i></a>
+            </div>
+            <div class="header__nav-item3 item-header">
+              <a class="header-text" href>Project<i
+                  class="fa-solid fa-chevron-down"></i></a>
+            </div>
+            <div class="header__nav-item4 item-header">
+              <a class="header-text" href>Blog<i
+                  class="fa-solid fa-chevron-down"></i></a>
+            </div>
+            <div class="header__nav-item5 item-header">
+              <a class="header-text" href>Blocks<i
+                  class="fa-solid fa-chevron-down"></i></a>
+            </div>
+            <div class="header__nav-item6 item-header">
+              <a class="header-text" href>Documentation<i
+                  class="fa-solid fa-chevron-down"></i></a>
+            </div>
+            <div class="header__nav-button">
+              <button class="button">Contact</button>
+            </div>
+            <label for="header__mobile-input" class="btn-bars">
+              <svg class="icons" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg" fill="none"><g
+                  id="SVGRepo_bgCarrier" stroke-width="0"></g><g
+                  id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                  stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path
+                    stroke="#000000" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="2"
+                    d="M4 6H20M4 12H20M4 18H20"></path> </g></svg>
+            </label>
+            <input type="checkbox" hidden name class="header__input"
+              id="header__mobile-input">
+            <label for="header__mobile-input" class="nav__overlay">
+            </label>
+            <!-- nav mobile -->
+            <div class="nav__mobile">
+              <div class="nav__mobile__list">
+                <div class="header__nav__mobile">
+                  <a class="header-text" href>Demo</a>
+                </div>
+                <div class="header__nav__mobile">
+                  <a class="header-text" href>Page</a>
+                </div>
+                <div class="header__nav__mobile">
+                  <a class="header-text" href>Project</a>
+                </div>
+                <div class="header__nav__mobile">
+                  <a class="header-text" href>Blog</a>
+                </div>
+                <div class="header__nav__mobile">
+                  <a class="header-text" href>Blocks</a>
+                </div>
+                <div class="header__nav__mobile">
+                  <a class="header-text" href>Documentation</a>
+                </div>
+              </div>
+              <label for="header__mobile-input" class="nav__mobile__close">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path
+                    d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z" /></svg>
+              </label>
+            </div>
           </div>
         </div>
-        <div class="header__nav row">
-          <div class="header__nav-item1 item-header">
-            <a class="header-text" href=""
-              >Demo<i class="fa-solid fa-chevron-down"></i
-            ></a>
-          </div>
-          <div class="header__nav-item2 item-header">
-            <a class="header-text" href=""
-              >Page<i class="fa-solid fa-chevron-down"></i
-            ></a>
-          </div>
-          <div class="header__nav-item3 item-header">
-            <a class="header-text" href=""
-              >Project<i class="fa-solid fa-chevron-down"></i
-            ></a>
-          </div>
-          <div class="header__nav-item4 item-header">
-            <a class="header-text" href=""
-              >Blog<i class="fa-solid fa-chevron-down"></i
-            ></a>
-          </div>
-          <div class="header__nav-item5 item-header">
-            <a class="header-text" href=""
-              >Blocks<i class="fa-solid fa-chevron-down"></i
-            ></a>
-          </div>
-          <div class="header__nav-item6 item-header">
-            <a class="header-text" href=""
-              >Documentation<i class="fa-solid fa-chevron-down"></i
-            ></a>
-          </div>
-          <div class="header__nav-button">
-            <button class="button">Contact</button>
-          </div>
-        </div>
-        <!-- </div> -->
       </header>
-      <div class="main row">
-        <div class="section1 container">
+      <section class="main row">
+        <section class="section1 container">
           <div class="container-section1 layout">
             <div class="section1__content-top row">
               <div class="top-content">
                 <div class="top-content-title">
                   <p class="title-p title span">
-                    A digital agency specializing on <span>mobile design</span>
+                    A digital agency specializing on <span>mobile
+                      design</span>
                   </p>
                 </div>
                 <div class="top-content-text">
                   <p class="text-p">
-                    We are an award winning design agency that strongly believes
+                    We are an award winning design agency that strongly
+                    believes
                     in the power of creative ideas.
                   </p>
                 </div>
@@ -87,8 +125,7 @@
                 <img
                   class="image-size"
                   src="./assets/images/image-section1.png"
-                  alt="image error..."
-                />
+                  alt="image error..." />
               </div>
             </div>
             <div class="section1__content-bottom">
@@ -97,68 +134,61 @@
                   Trusted by over 2K+ clients across the world
                 </p>
               </div>
-              <ul>
+              <ul class="section1__list__image">
                 <li>
                   <img
                     class="bottom-image"
                     src="./assets/images/c1.png"
-                    alt="image error..."
-                  />
+                    alt="image error..." />
                 </li>
                 <li>
                   <img
                     class="bottom-image"
                     src="./assets/images/c2.png"
-                    alt="image error..."
-                  />
+                    alt="image error..." />
                 </li>
                 <li>
                   <img
                     class="bottom-image"
                     src="./assets/images/c3.png"
-                    alt="image error..."
-                  />
+                    alt="image error..." />
                 </li>
                 <li>
                   <img
                     class="bottom-image"
                     src="./assets/images/c4.png"
-                    alt="image error..."
-                  />
+                    alt="image error..." />
                 </li>
                 <li>
                   <img
                     class="bottom-image"
                     src="./assets/images/c5.png"
-                    alt="image error..."
-                  />
+                    alt="image error..." />
                 </li>
                 <li>
                   <img
                     class="bottom-image"
                     src="./assets/images/c6.png"
-                    alt="image error..."
-                  />
+                    alt="image error..." />
                 </li>
                 <li>
                   <img
                     class="bottom-image"
                     src="./assets/images/c7.png"
-                    alt="image error..."
-                  />
+                    alt="image error..." />
                 </li>
               </ul>
             </div>
           </div>
-        </div>
-        <div class="section2 container">
+        </section>
+        <section class="section2 container">
           <div class="container__section2 layout">
             <div class="section2__title">
               <div class="section2__title-one">
                 <p class="sub-title">What we do?</p>
               </div>
               <div class="section2__title-two">
-                <p class="title">
+                <p class="text-title-two  title">
                   The service we offer is specifically designed to meet your
                   needs.
                 </p>
@@ -170,16 +200,16 @@
                   <img
                     class="image-size"
                     src="./assets/images/image-item1-section2.png"
-                    alt="error..."
-                  />
+                    alt="error..." />
                 </div>
                 <div class="item1-content content-items-st2">
                   <p class="title-item title">Web Design</p>
                   <p class="text">
-                    Nulla vitae elit libero, a pharetra augue. Donec id elit non
+                    Nulla vitae elit libero, a pharetra augue. Donec id elit
+                    non
                     mi porta gravida at eget. Fusce dapibus tellus.
                   </p>
-                  <a class="url url-st2" href="">Leanr more </a>
+                  <a class="url url-st2" href>Leanr more </a>
                 </div>
               </div>
               <!--  -->
@@ -188,8 +218,7 @@
                   <img
                     class="image-size"
                     src="./assets/images/image-item2-section2.png"
-                    alt="error..."
-                  />
+                    alt="error..." />
                 </div>
                 <div class="item2-content content-items-st2">
                   <p class="title-item title">Graphic Design</p>
@@ -197,7 +226,7 @@
                     Maecenas faucibus mollis interdum. Vivamus sagittis lacus
                     vel augue laoreet. Sed posuere consectetur.
                   </p>
-                  <a class="url url-st2" href="">Leanr more</a>
+                  <a class="url url-st2" href>Leanr more</a>
                 </div>
               </div>
               <!--  -->
@@ -206,37 +235,39 @@
                   <img
                     class="image-size"
                     src="./assets/images/image-item3-section2.png"
-                    alt="error..."
-                  />
+                    alt="error..." />
                 </div>
                 <div class="item3-content content-items-st2">
                   <p class="title-item title">3D Animation</p>
                   <p class="text">
-                    Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                    Cras justo odio, dapibus ac facilisis in, egestas eget
+                    quam.
                     Praesent commodo cursus magna scelerisque.
                   </p>
-                  <a class="url url-st2" href="">Leanr more</a>
+                  <a class="url url-st2" href>Leanr more</a>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="section3 container">
+        </section>
+        <section class="section3 container">
           <div class="container__section3 layout row">
             <div class="section3__content-first col-2">
-              <p class="sub-title">Our Strategy</p>
+              <p class="sub-title ">Our Strategy</p>
               <p class="title">
                 Here are 3 working steps to organize our projects
               </p>
               <p class="text">
                 Aenean eu leo quam. Pellentesque ornare sem lacinia quam
                 venenatis vestibulum. Etiam porta sem malesuada magna mollis
-                euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                euismod. Nullam id dolor id nibh ultricies vehicula ut id
+                elit.
                 Nullam quis risus eget urna mollis.
               </p>
               <p class="text">
                 Nullam id dolor id nibh ultricies vehicula ut id elit.
-                Vestibulum id ligula porta felis euismod semper. Aenean lacinia
+                Vestibulum id ligula porta felis euismod semper. Aenean
+                lacinia
                 bibendum nulla sed consectetur.
               </p>
               <button class="button-section3 button">
@@ -261,7 +292,8 @@
                 </div>
                 <div class="box-content">
                   <p class="heading-4">Data Analysis</p>
-                  <p class="text">Vivamus sagittis lacus vel augue laoreet.</p>
+                  <p class="text">Vivamus sagittis lacus vel augue
+                    laoreet.</p>
                 </div>
               </div>
               <div class="second__box-three row box">
@@ -275,15 +307,14 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="section4 container">
+        </section>
+        <section class="section4 container">
           <div class="container__section4 layout row">
             <div class="section4__image col-2">
               <img
                 class="image-st4 image-size"
                 src="./assets/images/image-section4.png"
-                alt="error..."
-              />
+                alt="error..." />
             </div>
             <div class="section4__content col-2">
               <div class="section4__content-box">
@@ -312,23 +343,25 @@
               </div>
             </div>
           </div>
-        </div>
- n         <div class="section5 container">
+        </section>
+        <section class="section5 container">
           <div class="container__section5 layout">
             <div class="section5__first">
               <div class="section5__first-content row">
-                <div class="fistt-content-title row">
-                  <p class="sub-title">Company Facts</p>
+                <div class="first-content-title row">
+                  <p class="st5__sub-title sub-title">Company Facts</p>
                   <p class="title">We are proud of our design team</p>
                   <p class="text">
-                    Just sit back and relax while we take care of your business
+                    Just sit back and relax while we take care of your
+                    business
                     needs for you.
                   </p>
                 </div>
-                <div class="fistt-content-views row">
+                <div class="first-content-views row">
                   <div class="views-box col-3">
                     <div class="views-box-icon">
-                      <i class="fa-regular fa-square-check icon views-icon"></i>
+                      <i
+                        class="fa-regular fa-square-check icon views-icon"></i>
                     </div>
                     <p class="title">1000+</p>
                     <p class="text">Completed Projects</p>
@@ -355,8 +388,7 @@
                     <img
                       class="card-image image-size"
                       src="./assets/images/image1-section5.png"
-                      alt="error..."
-                    />
+                      alt="error..." />
                   </div>
                   <p class="text-name">Coriss Ambady</p>
                   <p class="sub-name">Financial Analyst</p>
@@ -374,8 +406,7 @@
                     <img
                       class="card-image image-size"
                       src="./assets/images/image2-section5.png"
-                      alt="error..."
-                    />
+                      alt="error..." />
                   </div>
                   <p class="text-name">Cory Zamora</p>
                   <p class="sub-name">Marketing Specialist</p>
@@ -393,8 +424,7 @@
                     <img
                       class="card-image image-size"
                       src="./assets/images/image3-section5.png"
-                      alt="error..."
-                    />
+                      alt="error..." />
                   </div>
                   <p class="text-name">Nikolas Brooten</p>
                   <p class="sub-name">Sales Manager</p>
@@ -412,8 +442,7 @@
                     <img
                       class="card-image image-size"
                       src="./assets/images/image4-section5.png"
-                      alt="error..."
-                    />
+                      alt="error..." />
                   </div>
                   <p class="text-name">Jackie Sanders</p>
                   <p class="sub-name">Investment Planner</p>
@@ -432,29 +461,28 @@
               <div class="section5__second-content row">
                 <p class="st5-title1 sub-title">Latest Projects</p>
                 <p class="st5-title2 title">
-                  Check out some of our awesome projects with creative ideas and
+                  Check out some of our awesome projects with creative ideas
+                  and
                   great design.
                 </p>
               </div>
               <div class="section5__second-gallery row">
-                <div class="gallery-cell col-2">
+                <div class="gallery-cell gallery-cell-1 col-2">
                   <div class="cell-image">
                     <img
                       class="cell-image-one image-size"
                       src="./assets/images/image-gallery1.png"
-                      alt="error..."
-                    />
+                      alt="error..." />
                   </div>
                   <p class="text-name">Cras Fermentum Sem</p>
                   <p class="sub-name">Mobile Design</p>
                 </div>
-                <div class="gallery-cell col-2">
+                <div class="gallery-cell gallery-cell-2 col-2">
                   <div class="cell-image">
                     <img
                       class="cell-image-two image-size"
                       src="./assets/images/image-gallery2.png"
-                      alt="error..."
-                    />
+                      alt="error..." />
                   </div>
                   <p class="text-name">Venenatis Euismod Vehicula</p>
                   <p class="sub-name">Web Design</p>
@@ -462,34 +490,34 @@
               </div>
             </div>
             <div class="section5__three row">
-              <a class="url prev btn" href=""
-                ><i class="icon fa-solid fa-left-long"></i
-              ></a>
-              <a class="url next btn" href=""
-                ><i class="icon fa-solid fa-right-long"></i
-              ></a>
+              <a class="url prev btn" href><i
+                  class="icon fa-solid fa-left-long"></i></a>
+              <a class="url next btn" href><i
+                  class="icon fa-solid fa-right-long"></i></a>
             </div>
           </div>
-        </div>
-        <div class="section6 container">
+        </section>
+        <section class="section6 container">
           <div class="container__section6 layout">
             <div class="section6__content">
               <p class="sub-title">Happy Customers</p>
               <p class="title">Don't take our word for it. See what
-                customers are saying about us.</p> 
+                customers are saying about us.</p>
             </div>
             <div class="section6__card row">
               <div class="card__column st6-cl-one col-3">
                 <div class="card__row box-shadow st6-row-one">
-                  <p class="start" >★★★★★</p>
-                  <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”</p>
+                  <p class="start">★★★★★</p>
+                  <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus
+                    dolor auctor. Vestibulum id ligula porta felis euismod
+                    semper. Cras justo odio dapibus facilisis sociis natoque
+                    penatibus.”</p>
                   <div class="card__row-image st6-card-image row">
                     <div class="section6__card-image">
                       <img
                         class="card-image image-size"
                         src="./assets/images/image1-section5.png"
-                        alt="error..."
-                      />
+                        alt="error..." />
                     </div>
                     <div class="section6__card-content">
                       <p class="text-name">Coriss Ambady</p>
@@ -499,15 +527,17 @@
                 </div>
                 <!--  -->
                 <div class="card__row box-shadow st6-row-two">
-                  <p class="start" >★★★★★</p>
-                  <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”</p>
+                  <p class="start">★★★★★</p>
+                  <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus
+                    dolor auctor. Vestibulum id ligula porta felis euismod
+                    semper. Cras justo odio dapibus facilisis sociis natoque
+                    penatibus.”</p>
                   <div class="card__row-image st6-card-image row">
                     <div class="section6__card-image">
                       <img
                         class="card-image image-size"
                         src="./assets/images/image1-section5.png"
-                        alt="error..."
-                      />
+                        alt="error..." />
                     </div>
                     <div class="section6__card-content">
                       <p class="text-name">Coriss Ambady</p>
@@ -515,19 +545,21 @@
                     </div>
                   </div>
                 </div>
-              </div>  
+              </div>
               <!--  -->
               <div class="card__column st6-cl-two col-3">
                 <div class="card__row box-shadow st6-row-one ">
-                  <p class="start" >★★★★★</p>
-                  <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”</p>
+                  <p class="start">★★★★★</p>
+                  <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus
+                    dolor auctor. Vestibulum id ligula porta felis euismod
+                    semper. Cras justo odio dapibus facilisis sociis natoque
+                    penatibus.”</p>
                   <div class="card__row-image st6-card-image row">
                     <div class="section6__card-image">
                       <img
                         class="card-image image-size"
                         src="./assets/images/image1-section5.png"
-                        alt="error..."
-                      />
+                        alt="error..." />
                     </div>
                     <div class="section6__card-content">
                       <p class="text-name">Coriss Ambady</p>
@@ -537,15 +569,17 @@
                 </div>
                 <!--  -->
                 <div class="card__row box-shadow st6-row-two ">
-                  <p class="start" >★★★★★</p>
-                  <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”</p>
+                  <p class="start">★★★★★</p>
+                  <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus
+                    dolor auctor. Vestibulum id ligula porta felis euismod
+                    semper. Cras justo odio dapibus facilisis sociis natoque
+                    penatibus.”</p>
                   <div class="card__row-image st6-card-image row">
                     <div class="section6__card-image">
                       <img
                         class="card-image image-size"
                         src="./assets/images/image1-section5.png"
-                        alt="error..."
-                      />
+                        alt="error..." />
                     </div>
                     <div class="section6__card-content">
                       <p class="text-name">Coriss Ambady</p>
@@ -557,15 +591,17 @@
               <!--  -->
               <div class="card__column st6-cl-three col-3">
                 <div class="card__row box-shadow st6-row-one">
-                  <p class="start" >★★★★★</p>
-                  <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”</p>
+                  <p class="start">★★★★★</p>
+                  <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus
+                    dolor auctor. Vestibulum id ligula porta felis euismod
+                    semper. Cras justo odio dapibus facilisis sociis natoque
+                    penatibus.”</p>
                   <div class="card__row-image st6-card-image row">
                     <div class="section6__card-image">
                       <img
                         class="card-image image-size"
                         src="./assets/images/image1-section5.png"
-                        alt="error..."
-                      />
+                        alt="error..." />
                     </div>
                     <div class="section6__card-content">
                       <p class="text-name">Coriss Ambady</p>
@@ -575,15 +611,17 @@
                 </div>
                 <!--  -->
                 <div class="card__row box-shadow st6-row-two">
-                  <p class="start" >★★★★★</p>
-                  <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”</p>
+                  <p class="start">★★★★★</p>
+                  <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus
+                    dolor auctor. Vestibulum id ligula porta felis euismod
+                    semper. Cras justo odio dapibus facilisis sociis natoque
+                    penatibus.”</p>
                   <div class="card__row-image st6-card-image row">
                     <div class="section6__card-image">
                       <img
                         class="card-image image-size"
                         src="./assets/images/image1-section5.png"
-                        alt="error..."
-                      />
+                        alt="error..." />
                     </div>
                     <div class="section6__card-content">
                       <p class="text-name">Coriss Ambady</p>
@@ -594,84 +632,107 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="section7 container">
+        </section>
+        <section class="section7 container">
           <div class="container__section7 layout row">
             <div class="section7__content-first col-2">
               <p class="sub-title">FAQ</p>
               <p class="title">If you don't see an answer to
                 your question, you can send us
                 an email from our contact form.</p>
-              <p class="text">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare.</p>
-              <button class="button">All FAQ</button>
+              <p class="st7__first-text text">Duis mollis, est non commodo
+                luctus, nisi erat
+                porttitor ligula, eget lacinia odio sem nec elit. Nullam quis
+                risus eget urna mollis ornare.</p>
+              <button class="st7__button button">All FAQ</button>
             </div>
             <div class="section7__content-second col-2">
               <div class="content__second-box row box-shadow">
                 <i class="fa-solid fa-chevron-down icon-up-down"></i>
-                <p class="text-sub-button">How do I get my subscription receipt?</p>
+                <p class="text-sub-button st7__text-button">How do I get my
+                  subscription
+                  receipt?</p>
               </div>
               <div class="content__second-box row box-shadow">
                 <i class="fa-solid fa-chevron-down icon-up-down"></i>
-                <p class="text-sub-button">Are there any discounts for people in need?</p>
+                <p class="text-sub-button st7__text-button">Are there any
+                  discounts for people
+                  in need?</p>
               </div>
               <div class="content__second-box row box-shadow">
                 <i class="fa-solid fa-chevron-down icon-up-down"></i>
-                <p class="text-sub-button">Do you offer a free trial edit?</p>
+                <p class="text-sub-button st7__text-button">Do you offer a free
+                  trial edit?</p>
               </div>
               <div class="content__second-box row box-shadow">
                 <i class="fa-solid fa-chevron-down icon-up-down"></i>
-                <p class="text-sub-button">How do I reset my Account password?</p>
+                <p class="text-sub-button st7__text-button">How do I reset my
+                  Account
+                  password?</p>
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </section>
+      </section>
       <footer class="end container">
         <div class="container__end layout">
           <div class="end__first row">
-            <p class="title text-while">Join our community by using our
+            <p class="end__first-title title text-while">Join our community by
+              using our
               services and grow your business.</p>
-            <button class="button">Try It For Free</button>
+            <button class="end__first-button button">Try It For Free</button>
           </div>
           <div class="end__second row">
-             <div class="end__second-column row col-4">
+            <div class="end__second-column row col-4">
               <div class="end__logo">
-                <img class="logo-filter" src="./assets/images/logo-light.png" alt="Image error..." />
+                <img class="logo-filter" src="./assets/images/logo-light.png"
+                  alt="Image error..." />
               </div>
-              <p class="text text-gray">© 2023 Sandbox. All rights reserved.</p>
-              <div class="icons">
+              <p class="text text-gray">© 2023 Sandbox. All rights
+                reserved.</p>
+              <div class="end__second-icons icons">
                 <i class="icon1 fa-brands fa-twitter icon-end"></i>
                 <i class="icon2 fa-brands fa-facebook-f icon-end"></i>
                 <i class="icon3 fa-solid fa-basketball icon-end"></i>
                 <i class="icon4 fa-brands fa-instagram icon-end"></i>
                 <i class="icon5 fa-brands fa-youtube icon-end"></i>
               </div>
-             </div>
-             <div class="end__second-column col-4">
+            </div>
+            <div class="end__second-column col-4">
               <p class="text-name text-while">Get in Touch</p>
               <p class="text text-gray">Moonshine St. 14/05
                 Light City, London,
                 United Kingdom</p>
               <p class="text text-gray">info@email.com</p>
               <p class="text text-gray">00 (123) 456 78 90</p>
-             </div>
-             <div class="end__second-column col-4">
-              <p href="" class="text-name text-while">Learn More</p>
-              <a href="" class="text text-gray end__a__hover">About Us</a>
-              <a href="" class="text text-gray end__a__hover">Our Story</a>
-              <a href="" class="text text-gray end__a__hover">Projects</a>
-              <a href="" class="text text-gray end__a__hover">Terms of Use</a>
-              <a href="" class="text text-gray end__a__hover">Privacy Policy</a>
-             </div>
-             <div class="end__second-column end__cl-4">
+            </div>
+            <div class="end__second-column col-4">
+              <p href class="text-name text-while">Learn More</p>
+              <a href
+                class="end__second-text text text-gray end__a__hover">About
+                Us</a>
+              <a href class="end__second-text text text-gray end__a__hover">Our
+                Story</a>
+              <a href
+                class="end__second-text text text-gray end__a__hover">Projects</a>
+              <a href
+                class="end__second-text text text-gray end__a__hover">Terms of
+                Use</a>
+              <a href
+                class="end__second-text text text-gray end__a__hover">Privacy
+                Policy</a>
+            </div>
+            <div class="end__second-column end__cl-4">
               <p class="text-name text-while">Our Newsletter</p>
               <p class="text text-gray">Subscribe to our newsletter to get our
                 news & deals delivered to you.</p>
               <div class="end-search row">
-                <input class="search-input" type="text " name="" id="join" placeholder="Email Address">
-                <label class="search-label" for="join"><a class="url" href="">Join</a></label>
+                <input class="search-input" type="text " name id="join"
+                  placeholder="Email Address">
+                <label class="search-label" for="join"><a class="url"
+                    href>Join</a></label>
               </div>
-             </div>
+            </div>
           </div>
         </div>
       </footer>
