@@ -9,7 +9,7 @@
 - Demo Website: https://ducaudi.github.io/traning-HTML-CSS/
 
 ## TIMELINE
-- 5 days (From 19/5 - To 25 /5)
+- 8 days (From 19/5 - To 26 /5 )
 ## TIME SIZE
 - 1 dev
 ## EDITOR
@@ -25,22 +25,28 @@
 
 **Day 2:**
 - Create a Header
-- Create section 1
+- Create section digital
 
 **Day 3:**:
-- Create a section 2
-- Create a section 3
+- Create a section service
+- Create a section organize
 
 **Day 4:**
-- Create a section 4
-- Create a section 5
+- Create a section solution
+- Create a section designTeam
 
 **Day 5:**
-- Create a section 6
-- Create a section 7
+- Create a section rating
+- Create a section FAQ
 
-**Day 6:**:
-- Create a Contact and Footer
+**Day 6:**
+- Create a  Footer
+
+**Day 7:**
+- Create responsive mobile : header and section digital, service, organize
+
+**Day 8:**
+- Create responsive mobile : section solution, designTeam, rating, FAQ and Footer
 
 
 ## Checkout real app works following
