@@ -6,7 +6,7 @@
 - HTML5/CSS3
 - Figma design: https://www.figma.com/design/lxbLEojLMtr1MCWxu52VdI/50%2B-Landing-Page-design-free-(Community)-(Copy)?node-id=2101-1074&m=dev
 - fontawesome
-- Demo Website: https://ducaudi.github.io/Traning/
+- Demo Website: https://ducaudi.github.io/traning-HTML-CSS/
 ## TIMELINE
 - 5 days (From 19/5 - To 25 /5)
 ## TIME SIZE
